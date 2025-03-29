@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+
+<VBox fx:id="tutorialVBox"
+      alignment="CENTER" spacing="15.0"
+      xmlns="http://javafx.com/javafx/8.0.171"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="dragonUI.Tutorial"
+      style="-fx-background-image: url('bg_tutorial.jpg');
+      -fx-background-size: cover;
+      -fx-background-repeat: no-repeat;
+      -fx-background-color: white;
+      -fx-opacity: 0.8;
+      -fx-padding: 30;">
+  <!-- Title -->
+  <Label text="Tutorial" style="-fx-font-size: 32px; -fx-font-family: 'Comic Sans MS';" />
+  <!-- Context -->
+  <ScrollPane prefWidth="300" prefHeight="300" style="-fx-opacity: 0.8">
+    <content>
+      <Label fx:id="contentLabel" wrapText="true" style="-fx-font-size: 16px; -fx-font-family: 'Comic Sans MS';"/>
+    </content>
+  </ScrollPane>
+  <!-- Back Button -->
+  <Button fx:id="switchToMainButton" text="_Main Menu" style="-fx-font-size: 24px; -fx-font-family: 'Comic Sans MS';"
+  onAction="#switchToMain"/>
+</VBox>

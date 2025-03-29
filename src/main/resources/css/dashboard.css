@@ -1,0 +1,16 @@
+#mainHBox {
+    -fx-background-image: url("../splash.png");
+}
+
+.label {
+    -fx-wrap-text: true;
+}
+
+.panel-button {
+    -fx-max-width: 130;
+}
+
+.progress-bar {
+    -fx-pref-height: 30;
+}
+

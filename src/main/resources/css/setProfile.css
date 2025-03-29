@@ -1,0 +1,31 @@
+.HBox {
+  -fx-spacing: 20;
+  -fx-padding: 10;
+}
+
+.root {
+  -fx-background-image: url("../bg_newgame.jpg");
+  -fx-spacing: 20;
+  -fx-padding: 10;
+  -fx-background-size: cover;
+  -fx-background-position: center;
+  -fx-background-color: white;
+  -fx-opacity: 0.9;
+}
+
+.label {
+  -fx-font-size: 16px;
+  -fx-padding: 10;
+}
+
+.Button {
+  -fx-font-size: 16px;
+  -fx-padding: 10;
+  -fx-content-display: top;
+  -fx-cursor: hand;
+}
+
+.TextField {
+  -fx-font-size: 16px;
+  -fx-padding: 10;
+}

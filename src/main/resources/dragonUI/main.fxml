@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="mainVBox" alignment="CENTER" spacing="15.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dragonUI.MainMenu">
+    <ImageView fitHeight="300.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@../GameTitle.png" />
+        </image>
+        <VBox.margin>
+            <Insets bottom="50.0" />
+        </VBox.margin>
+    </ImageView>
+    <Button onAction="#switchToSetProfile" text="_New game"/>
+    <Button onAction="#switchToLoad" text="_Load game" />
+    <Button onAction="#switchToTutorial" text="_Tutorial" />
+    <Button onAction="#switchToParentControl" text="_Parent Control" />
+    <Button onAction="#switchToSettings" text="_Settings" />
+    <Button onAction="#exitGame" text="E_xit" />
+
+    <!-- Added Text Label -->
+    <Label text="Hold Alt to underline button shortcuts. Press letter underlined to execute action."
+           alignment="CENTER"
+           style="-fx-font-size: 14px; -fx-text-fill: black; -fx-padding: 0px;"/>
+    <Label text="By Group 42: Desmond, Sid, Cole, Edward and Calvin. Created for CS2212 at Western University, Fall 2024."
+           alignment="CENTER"
+           style="-fx-font-size: 10px; -fx-text-fill: black; -fx-padding: 0px;"/>
+</VBox>

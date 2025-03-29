@@ -1,0 +1,27 @@
+#mainVBox {
+  -fx-background-image: url("../bg_mainpage.jpg");
+  -fx-background-radius: 10;
+  -fx-effect: dropshadow(three-pass-box, black, 60, 1, 0, 0);
+  -fx-background-size: cover;
+  -fx-background-repeat: no-repeat;
+}
+
+.label {
+  -fx-font-size: 24px;
+  -fx-font-weight: bold;
+  -fx-padding: 20;
+}
+
+.button {
+  -fx-pref-width: 200px;
+  -fx-pref-height: 40px;
+  -fx-background-radius: 10;
+  -fx-border-color: black;
+  -fx-border-radius: 10;
+}
+
+/* only for buttons in the mainVBox */
+/*.button:hover {*/
+/*  -fx-pref-height: 60px;*/
+/*  -fx-pref-width: 220px;*/
+/*}*/
