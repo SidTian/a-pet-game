@@ -1,5 +1,0 @@
-Settings.png: <a href="https://www.flaticon.com/free-icons/components" title="components icons">Components icons created by Good Ware - Flaticon</a>
-
-Exit.png: <a href="https://www.flaticon.com/free-icons/logout" title="logout icons">Logout icons created by Good Ware - Flaticon</a>
-
-Tutorial.png: <a href="https://www.flaticon.com/free-icons/user-manual" title="user manual icons">User manual icons created by Good Ware - Flaticon</a>
